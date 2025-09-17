@@ -1,3 +1,44 @@
-<div style="height: 300px;border-radius: 5px;background-color: aquamarine;">
-    1 Chart Buttom
+<div style="display: grid;grid-template-columns:repeat(1,1fr) ;gap: 10px
+; margin: 10px; background-color: rgb(240, 234, 234);border-radius: 5px;height:auto;">
+  <div  class="grid-card">
+    <!-- Top 10 Report -->
+<div class="top-report mat-elevation-2">
+  <div class="chart-title">
+    <h3><span class="material-icons">leaderboard</span> Top 10 Produktionslinien aktueller Monat </h3>
+  </div>
+  <table class="report-table">
+    <thead>
+      <tr>
+        <th>Rang</th>
+        <th>Produkte</th>
+        <th>Gesamtumsatz/Stück</th>
+        <th>Effizienz</th>
+        <th>Performance</th>
+      </tr>
+    </thead>
+    <tbody>
+          @for(item of oeeTopN; track item ; let i = $index) {
+      <tr>
+        <td><span class="rank-badge">{{i+1}}</span></td>
+        <td>{{item.product}}</td>
+
+        <td>{{item.total}} Stk / {{item.psc}} Stk</td>
+        <td>{{100-5*i}} %</td>
+        <td>
+          <div class="progress-bar">
+            <div class="progress-fill" [style.width.%]="100 - 5*i"></div>
+          </div>
+        </td>
+      </tr>
+    }
+     
+    </tbody>
+  </table>
+</div>
+
+
+
+
+  </div>
+
 </div>
