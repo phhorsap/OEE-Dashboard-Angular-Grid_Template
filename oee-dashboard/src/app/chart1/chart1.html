@@ -1,0 +1,75 @@
+
+<div class="kpi-grid">
+    <div class="kpi-card production mat-elevation-2">
+        <div class="kpi-header">
+            <span class="kpi-title">Produktionsvolumen</span>
+            <span class="material-icons kpi-icon">precision_manufacturing</span>
+        </div>
+        <div class="kpi-value">12,847</div>
+        <div class="kpi-change positive">
+            <span class="material-icons" style="font-size: 1rem;">trending_up</span>
+            +8.2% vs. Vormonat
+        </div>
+    </div>
+
+    <div class="kpi-card efficiency mat-elevation-2">
+        <div class="kpi-header">
+            <span class="kpi-title">Effizienz</span>
+            <span class="material-icons kpi-icon">speed</span>
+        </div>
+        <div class="kpi-value">94.2%</div>
+        <div class="kpi-change positive">
+            <span class="material-icons" style="font-size: 1rem;">trending_up</span>
+            +2.1% vs. Vormonat
+        </div>
+    </div>
+
+    <div class="kpi-card quality mat-elevation-2">
+        <div class="kpi-header">
+            <span class="kpi-title">Qualitätsrate</span>
+            <span class="material-icons kpi-icon">verified</span>
+        </div>
+        <div class="kpi-value">98.7%</div>
+        <div class="kpi-change negative">
+            <span class="material-icons" style="font-size: 1rem;">trending_down</span>
+            -0.3% vs. Vormonat
+        </div>
+    </div>
+
+    <div class="kpi-card downtime mat-elevation-2">
+        <div class="kpi-header">
+            <span class="kpi-title">Ausfallzeit</span>
+            <span class="material-icons kpi-icon">schedule</span>
+        </div>
+        <div class="kpi-value">2.4h</div>
+        <div class="kpi-change positive">
+            <span class="material-icons" style="font-size: 1rem;">trending_down</span>
+            -15% vs. Vormonat
+        </div>
+    </div>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+   
+   <div style="height: 250px;">
+    <div class="chart-card mat-elevation-2">
+            <div class="chart-title">
+                <span class="material-icons">pie_chart</span>
+                YTD Produktionsverteilung
+            </div>
+            <div class="chart-container">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+   </div>
+   <div style=" height: 250px;">
+    <div class="chart-card mat-elevation-2">
+            <div class="chart-title">
+                <span class="material-icons">show_chart</span>
+                Produktionstrend (Letzten 12 Monate)
+            </div>
+            <div class="chart-container">
+                <canvas id="lineChart"></canvas>
+            </div>
+        </div>
+
+</div>

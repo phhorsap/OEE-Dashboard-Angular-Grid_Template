@@ -5,10 +5,11 @@ import { Hearder } from './hearder/hearder';
 import { ChartTop } from './chart-top/chart-top';
 import { ChartButtom } from './chart-buttom/chart-buttom';
 import { Footer } from './footer/footer';
+import { Chart1 } from './chart1/chart1';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,KpiCard,Hearder,ChartTop,ChartButtom,Footer],
+  imports: [RouterOutlet,KpiCard,Hearder,ChartTop,ChartButtom,Footer,Chart1],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
