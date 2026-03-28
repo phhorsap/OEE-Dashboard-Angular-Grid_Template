@@ -1,59 +1,41 @@
-# OeeDashboard
+# dashboard-chart-js--MaterialUI-Json-server
+<img width="1074" height="837" alt="image" src="https://github.com/user-attachments/assets/08809bb3-d30d-4a29-8702-e6ad17a94125" />
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
+# 📊 Manufacturing Performance Dashboard
+A real-time production monitoring dashboard built with **Angular**, **Material UI**, and **Chart.js**.
 
-## Development server
+## ✨ Features
+- **Real-time Data:** Powered by `json-server` for a RESTful API simulation.
+- **KPI Monitoring:** Track Efficiency (94.2%), Quality Rate (98.7%), and Down-time.
+- **Interactive Visualizations:** High-performance charts showing production trends and distribution.
+- **Responsive Design:** Optimized for tablets and desktop monitors in production lines.
 
-To start a local development server, run:
+- ## 🛠️ Built With (Angular Tech Stack)
 
-```bash
-ng serve
-```
+### Frontend Engine
+* **Angular 17+** - Enterprise-grade framework.
+* **Angular Material** - For consistent, high-quality UI components (Cards, Tables, Grids).
+* **RxJS** - For reactive data streams (handling real-time data from JSON-server).
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Data Visualization
+* **Chart.js** - Open-source HTML5 charts.
+* **ng2-charts** - Angular directives for Chart.js integrations.
 
-## Code scaffolding
+### Mock Backend
+* **JSON Server** - To simulate production APIs for KPIs like Efficiency and Quality.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 How to Run
+1. **Clone & Install:**
+   `npm install`
+2. **Start Mock API:**
+   `npm run server` (runs on port 3000)
+3. **Start Dashboard:**
+   `npm start`
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. npm install -g @angular/cli
+2. ng add @angular/material
+3. npm install chart.js ng2-charts
 
-```bash
-ng generate --help
-```
 
-## Building
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
