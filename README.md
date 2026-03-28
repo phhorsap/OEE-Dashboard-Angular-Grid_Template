@@ -1,6 +1,6 @@
-dashboard-chart-js-materialui-json-server
+
 # dashboard-chart-js--MaterialUI-Json-server
-<img width="1074" height="837" alt="image" src="https://github.com/user-attachments/assets/08809bb3-d30d-4a29-8702-e6ad17a94125" />
+<img width="723" height="511" alt="image" src="https://github.com/user-attachments/assets/f7f0474f-d7cb-411a-a18f-ad58a0edaf1d" />
 
 # 📊 Manufacturing Performance Dashboard
 A real-time production monitoring dashboard built with **Angular**, **Material UI**, and **Chart.js**.
